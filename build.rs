@@ -28,6 +28,7 @@ fn main() {
 
     // launching clang to generate the .o file for the C lib.
     if !std::process::Command::new("clang")
+        .arg("-fPIC")
         .arg("-c")
         .arg(sources_path)
         .arg("-o")
