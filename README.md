@@ -43,3 +43,8 @@ Then to install the extension
 ```bash
 echo "extension=/absolute/path/to/libgeographiclib_php_extension.so" >> "/path/to/your/php.ini"
 ```
+
+## License
+GeographicLib is licensed under MIT license, you can find out more here : [https://github.com/geographiclib/geographiclib-c](https://github.com/geographiclib/geographiclib-c)
+
+This extension is under [MIT license](./LICENSE).
