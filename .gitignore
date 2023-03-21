@@ -1,0 +1,3 @@
+/target
+geographiclib/*.o
+geographiclib/*.a
